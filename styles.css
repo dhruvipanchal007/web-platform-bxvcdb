@@ -20,12 +20,35 @@ body {
   border-radius: 12px;
   box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.5),
     -4px -4px 16px rgba(255, 255, 255, 0.05);
-  display: flex;
   justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .loading-title {
   font-size: 1.5em;
   text-transform: uppercase;
   letter-spacing: 4px;
   font-weight: 300;
+}
+.loading-circle{
+  background: conic-gradient(from 0deg at 50% 50%, rgb(111, 123, 247) 0%, rgb(155, 248, 244) 100%, rgb(16, 16, 18) 100%);
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loading-count{
+  width: 174px;
+  height: 174px;
+  background-color: #1D1E22;
+  border-radius: 50%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+.loading-num{
+  font-size: 4em;
 }
